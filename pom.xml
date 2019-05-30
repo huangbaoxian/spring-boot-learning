@@ -26,6 +26,9 @@
         <module>spring-boot-mybatis-annotation</module>
         <module>spring-boot-mybatis-xml</module>
         <module>spring-boot-mybatis-annotation-multidatasource</module>
+        <module>spring-boot-redis</module>
+        <module>spring-boot-scheduled</module>
+
     </modules>
 
     <dependencies>

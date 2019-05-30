@@ -21,7 +21,7 @@ public class RedisController {
     public String redisGetValue(String key) {
         return redisAction.getValue(key);
     }
-    
+
     @RequestMapping("/setvalue")
     @ResponseBody
     public String redisSetValue(String key, String value) {
