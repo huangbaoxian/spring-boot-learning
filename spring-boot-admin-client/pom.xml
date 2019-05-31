@@ -9,33 +9,20 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.hbx</groupId>
-    <artifactId>spring-boot-learning</artifactId>
+    <artifactId>spring-boot-admin-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <name>spring-boot-learning</name>
-
+    <name>spring-boot-admin-client</name>
+    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
-
-    <modules>
-        <module>spring-boot-mybatis-xml-multidatasource</module>
-        <module>spring-boot-mybatis-annotation</module>
-        <module>spring-boot-mybatis-xml</module>
-        <module>spring-boot-mybatis-annotation-multidatasource</module>
-        <module>spring-boot-redis</module>
-        <module>spring-boot-scheduled</module>
-        <module>spring-boot-admin-client</module>
-
-    </modules>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
@@ -45,11 +32,10 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-client</artifactId>
+            <version>2.1.0</version>
         </dependency>
-
-
 
     </dependencies>
 
