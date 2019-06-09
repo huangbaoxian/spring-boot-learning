@@ -13,13 +13,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-admin-manager</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
-
-    <modules>
-        <module>../spring-boot-admin-client</module>
-        <module>../spring-boot-admin-server</module>
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
